@@ -1,5 +1,5 @@
-# skill_quien_cumple_hoy
-Skill in Spanish that shows connecting to an external API using progressive response
+# Quién cumple años hoy?
+Alexa Skill in Spanish that shows connecting to an external API using progressive response
 
 Don't miss these steps:
 
