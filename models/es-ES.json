@@ -1,0 +1,62 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quién cumple años hoy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "salir"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CelebrityBirthdaysIntent",
+                    "slots": [],
+                    "samples": [
+                        "dime quienes cumplen años hoy",
+                        "dime quien cumple años hoy",
+                        "quienes cumplen años hoy",
+                        "quien cumple años hoy",
+                        "quienes cumplen",
+                        "quien cumple",
+                        "quienes cumplen años",
+                        "quien cumple años",
+                        "quienes cumplen hoy",
+                        "quien cumple hoy",
+                        "que famosos cumplen años hoy",
+                        "que celebridades cumplen años hoy",
+                        "quiénes cumplen hoy",
+                        "dime quién cumple hoy",
+                        "quién cumple hoy",
+                        "cumples de hoy",
+                        "cumples del día",
+                        "cumpleaños de hoy",
+                        "cumpleaños del día",
+                        "cumpleaños de celebridades",
+                        "cumples de celebridades",
+                        "cumpleaños de famosos",
+                        "cumples de famosos",
+                        "dime quiénes cumplen años hoy",
+                        "dime quién cumple años hoy",
+                        "quiénes cumplen años hoy",
+                        "quién cumple años hoy",
+                        "qué famosos cumplen años hoy"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
