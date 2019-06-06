@@ -99,7 +99,7 @@ const TouchIntentHandler = {
     },
     handle(handlerInput) {
         console.log('Touch event arguments: ' + JSON.stringify(handlerInput.requestEnvelope.request.arguments[0]));
-        let person = handlerInput.requestEnvelope.request.arguments[0];
+        let person = JSON.parse(handlerInput.requestEnvelope.request.arguments[0]);
         let speechText = handlerInput.t('LIST_PERSON_DETAIL_MSG', {person: person});
 
         speechText += handlerInput.t('SHORT_HELP_MSG');
